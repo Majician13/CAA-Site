@@ -1,0 +1,210 @@
+/* Containers */
+
+.container-fluid {
+	padding: 7% 15%;
+}
+
+/* Features */
+
+#features {
+	position: relative;
+	z-index: 1;
+}
+
+.feature-image {
+	color: #ef8172;
+	margin-bottom: 1rem;
+}
+
+.feature-image:hover {
+	color: #ff4c68;
+}
+
+.feature-box {
+	padding: 5%;
+}
+
+.feature-title {
+	font-size: 1.5rem;
+}
+
+/* Footer */
+
+p.footer {
+	color: #ddffbc;
+}
+
+.footer-section {
+	padding: 3% 15%;
+	margin: 0 auto 0 auto;
+	background-color: #52734d;
+}
+
+/* Headings */
+
+.big-heading {
+	font-family: 'Montserrat';
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+
+.section-heading {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+}
+
+/* Navigation Bar */
+
+.navbar {
+	padding: 0 0 0;
+	margin: 0 0;
+}
+
+#navbarNavDropdown {
+	padding: 0 0 0;
+	margin: 0 0;
+	width: 100%;
+}
+
+.navbar-brand {
+	font-family: 'Ubuntu';
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+
+.nav-item {
+	padding: 0 18px;
+}
+
+.nav-link {
+	font-size: 1.2rem;
+	font-family: 'Montserrat';
+	color: #52734d;
+}
+
+.navbar-nav {
+	background-color: #ddffbc;
+}
+
+/* Pricing */
+
+#pricing {
+	padding: 100px;
+}
+
+.price-text {
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.card-deck {
+	padding: 3% 2%;
+}
+
+/* Sections */
+
+#about {
+	background-color: #ddffbc;
+	color: #52734d;
+}
+
+.white-section {
+	background-color: #fff;
+}
+
+/* TAG SPECS  */
+
+body {
+	font-family: 'Montserrat';
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat';
+	font-weight: 900;
+}
+
+p {
+	color: #52734d;
+}
+
+/* Testimonial */
+
+#testimonials {
+	background-color: #ef8172;
+}
+
+/* Title */
+
+#title .container-fluid {
+	padding: 0% 15% 7%;
+	text-align: left;
+}
+
+/* #title-image {
+	width: 100%;
+	height: auto;
+} */
+
+.title-image {
+	width: 100%;
+	border: 0;
+}
+
+.logo-img {
+	width: 30%;
+	border: 0;
+}
+
+.logo-img-table {
+	width: 30%;
+	height: auto;
+}
+
+.td-p {
+	text-align: left;
+}
+
+.entry-header {
+	background-color: #ddffbc;
+}
+
+.introduction {
+	background-color: #ddffbc;
+}
+
+.footer-address {
+	text-align: left;
+	color: #ddffbc;
+}
+
+.footer-link {
+	width: 15rem;
+	align-items: center;
+}
+
+.footer-link-fb {
+	color: #ddffbc;
+}
+
+a.footer-link-email {
+	color: #ddffbc;
+	font-size: 0.6rem;
+	align-content: center;
+	align-items: center;
+	vertical-align: middle;
+}
